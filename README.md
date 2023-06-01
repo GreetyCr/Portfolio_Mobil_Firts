@@ -19,9 +19,6 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -34,17 +31,7 @@
 
 **[Portfolio Mobile First]** is a portfolio developed with the mobile first aproach, this portfolio is made for you to get to know me as a full stack developer and know more about my work.
 
-## 🛠 Built With <a name="built-with">No built needed</a>
-
 ### Tech Stack <a name="tech-stack">HTML, CSS, JavaScript</a>
-
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="">No client needed</a></li>
-  </ul>
-</details>
 
 <details>
   <summary>Server</summary>
@@ -53,12 +40,6 @@
   </ul>
 </details>
 
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="">No database needed</a></li>
-  </ul>
-</details>
 
 ### Key Features <a name="key-features"></a>
 
@@ -96,10 +77,6 @@ Example commands:
   git clone git@github.com:GreetyCr/Portfolio_Mobil_First.git
 ```
 
-### Install
-
-No installation needed
-
 ### Usage
 
 To run the project:
@@ -107,11 +84,6 @@ To run the project:
 Open a live server or a localhost to test it local
 Or
 Uploaded to Github and use Github Pages
-
-### Run tests
-
-No tests needed at the moment
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
