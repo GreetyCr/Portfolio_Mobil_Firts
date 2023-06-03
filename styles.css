@@ -6,9 +6,22 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 28px 0;
+  padding: 0;
+}
+
 body {
   overflow-x: hidden;
-  background-color: #e5e5e5;
+  background-color: #f4f5f7;
 }
 
 ul {
@@ -21,7 +34,7 @@ ul {
   align-items: center;
   margin: 0 auto;
   width: 100%;
-  padding: 10px 35px;
+  padding: 10px 24px;
   background-color: #fff;
 }
 
@@ -36,7 +49,7 @@ ul {
 }
 
 .headline {
-  padding: 90px 35px;
+  padding: 90px 24px;
   border-bottom-left-radius: 90px;
   background-image: url(./assets/header-shapes\ mobile.svg);
   background-size: cover;
@@ -75,7 +88,7 @@ ul {
 }
 
 .headline__icon {
-  margin-right: 12px;
+  margin-right: 20px;
 }
 
 .fa-twitter,
@@ -90,7 +103,6 @@ ul {
 .works {
   display: grid;
   justify-content: center;
-  background-color: #e5e5e5;
   padding: 140px 14px 140px 14px;
 }
 
@@ -165,7 +177,7 @@ ul {
   font-size: 12px;
   font-weight: 500;
   line-height: 16px;
-  padding: 4px 12px 4px 12px;
+  padding: 4px 12px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -186,4 +198,94 @@ ul {
   background-color: #fff;
   padding: 12px;
   border-radius: 8px;
+}
+
+.about-me {
+  background-color: #fff;
+  padding: 110px 24px;
+  border-top-right-radius: 90px;
+}
+
+.about-me__text--title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #172b4d;
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.about-me__sub--title {
+  padding: 12px 0px;
+}
+
+.about-me__icons {
+  margin-bottom: 20px;
+}
+
+.about-myself__tech--stack {
+  margin: 40px 0px 150px 0px;
+}
+
+.about-me__text--para {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.about-myself__text--title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.about-myself__tech--stack--element {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.about-myself__tech--stack--arrow,
+.about-myself__tech--stack--arrow-main {
+  margin-right: 16%;
+  color: #505f79;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.about-myself__tech--stack--arrow-main {
+  transform: rotate(90deg);
+}
+
+.about-myself__tech--stack--lenguage {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 16px;
+  background-color: #f7f7f9;
+  padding: 9px 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+}
+
+.about-myself__tech--stack--lenguages {
+  margin: 32px 0;
+}
+
+.about-myself__tech--stack--lenguage-img {
+  margin-right: 16px;
+}
+
+.about-myself__tech--stack--lenguage-description {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
 }
