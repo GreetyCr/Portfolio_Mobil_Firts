@@ -111,7 +111,7 @@ ul {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   padding: 12px;
-  margin: 16px 0px 72px 0px;
+  margin: 16px 0 72px 0;
 }
 
 .works__img {
@@ -124,7 +124,7 @@ ul {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
-  padding: 12px 0px 18px 0px;
+  padding: 12px 0 18px 0;
 }
 
 .works__text--info {
@@ -218,7 +218,7 @@ ul {
 }
 
 .about-me__sub--title {
-  padding: 12px 0px;
+  padding: 12px 0;
 }
 
 .about-me__icons {
@@ -226,7 +226,7 @@ ul {
 }
 
 .about-myself__tech--stack {
-  margin: 40px 0px 150px 0px;
+  margin: 40px 0 150px 0;
 }
 
 .about-me__text--para {
