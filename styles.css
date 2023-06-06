@@ -293,9 +293,9 @@ ul {
 .contact-me__container {
   padding: 90px 24px;
   border-top-left-radius: 90px;
-  background-image: 
-    url(./assets/contact\ form\ shapes-mobile.svg),
-    url(./assets/Contact\ me.svg);
+  background-image:
+  url(./assets/contact\ form\ shapes-mobile.svg),
+  url(./assets/Contact\ me.svg);
   background-size: contain, cover;
   background-position: right;
   background-clip: padding-box, padding-box;
