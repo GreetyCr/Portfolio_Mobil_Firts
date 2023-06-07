@@ -200,6 +200,22 @@ ul {
   border-radius: 8px;
 }
 
+.works__button--element:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.works__button--element:active {
+  background-color: #2230d2;
+  border: 1px solid #2230d2;
+  color: #fff;
+}
+
+.works__button--element:disabled {
+  background-color: #c1c7d0;
+  color: #5e6c84;
+}
+
 .about-me {
   background-color: #fff;
   padding: 110px 24px;
@@ -333,6 +349,18 @@ ul {
   min-width: 100%;
   width: 100%;
   padding: 12px 38px 12px 15px;
+  margin-bottom: 20px;
+  color: #172b4d;
+}
+
+.contact-me__form--input::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  border-radius: 8px;
+  min-width: 100%;
+  width: 100%;
   margin-bottom: 20px;
   color: #172b4d;
 }
