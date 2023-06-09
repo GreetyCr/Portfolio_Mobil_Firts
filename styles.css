@@ -427,10 +427,6 @@ ul {
     padding: 0 10%;
   }
 
-  .fa-bars {
-    display: none; /* Hide the burger icon */
-  }
-
   .navbar__nav {
     display: block; /* Show the ul */
   }
@@ -520,7 +516,8 @@ ul {
   }
 
   .contact-me__container {
-    padding: 10% 20%;
+    padding: 10% 30%;
+    align-items: center;
   }
 
   .about-myself__tech--stack--arrow,
@@ -530,5 +527,17 @@ ul {
 
   .fa-bars {
     display: none;
+  }
+
+  .contact-me__form--input,
+  .contact-me__form--textarea {
+    border-radius: 4px;
+  }
+
+  .contact-me__form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
   }
 }
