@@ -1,6 +1,5 @@
 {
   "devDependencies": { 
-    "type": "module",
     "hint": "^7.1.9"
   }
   
