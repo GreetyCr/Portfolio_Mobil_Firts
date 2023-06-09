@@ -527,4 +527,8 @@ ul {
   .about-myself__tech--stack--arrow-main {
     margin-right: 3%;
   }
+
+  .fa-bars {
+    display: none;
+  }
 }
