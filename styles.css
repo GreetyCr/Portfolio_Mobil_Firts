@@ -438,7 +438,7 @@ ul {
   .navbar__list li {
     margin-right: 20px;
   }
-  
+
   .headline__text {
     display: flex;
     flex-direction: column;
@@ -527,5 +527,4 @@ ul {
   .about-myself__tech--stack--arrow-main {
     margin-right: 3%;
   }
-
 }
