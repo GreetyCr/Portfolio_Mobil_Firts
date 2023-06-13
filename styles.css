@@ -123,16 +123,7 @@ ul {
   position: relative;
 }
 
-.link__hover-effect:hover:after {
-  left: 0;
-  width: 100%;
-}
-
-.link__hover-effect--black:after {
-  background-color: #242424;
-}
-
-.link__hover-effect:after {
+.link__hover-effect::after {
   content: "";
   position: absolute;
   bottom: -3px;
@@ -140,6 +131,15 @@ ul {
   width: 0;
   right: 0;
   transition: all 350ms ease;
+}
+
+.link__hover-effect:hover::after {
+  left: 0;
+  width: 100%;
+}
+
+.link__hover-effect--black::after {
+  background-color: #242424;
 }
 
 .fa-twitter,
