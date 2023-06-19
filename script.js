@@ -7,12 +7,12 @@ function closeMenu() {
 }
 
 const btnMenu = document.getElementById('btnMenu');
-const btnMenu2 = document.getElementById('btnMenu2'); 
+const btnMenu2 = document.getElementById('btnMenu2');
 
 btnMenu.onclick = () => {
   openMenu();
-}
+};
 
 btnMenu2.onclick = () => {
   closeMenu();
-}
+};
