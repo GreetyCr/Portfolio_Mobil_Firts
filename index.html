@@ -22,11 +22,11 @@
         <li><a href="#" class="link__hover-effect link__hover-effect--black">Contact</a></li>
       </ul>
     </nav>
-   <div class="menu__backdrop">
-      <button class="btn__menu">
-        <i class="fa-solid fa-bars"></i>
-      </button>
-      <button class="btn__menu btn__menu--close">
+    <button class="btn__menu" onclick="openMenu()">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    <div class="menu__backdrop">
+      <button class="btn__menu btn__menu--close" onclick="closeMenu()">
         <i class="fas fa-times"></i>
       </button>
       <ul class="menu__links">

@@ -81,10 +81,10 @@ ul {
   bottom: 0;
   right: 0;
   z-index: 100;
-  display: flex;
+  backdrop-filter: blur(15px);
   justify-content: flex-start;
   align-items: start;
-  backdrop-filter: blur(15px);
+  display: none;
 }
 
 .menu__links {
@@ -94,7 +94,7 @@ ul {
 }
 
 .menu__list {
-  margin: 20px 0;
+  margin: 20px 28px;
 }
 
 .menu__link {
@@ -507,8 +507,12 @@ ul {
     justify-content: center;
   }
 
+  .btn__menu,
   .fa-bars {
     display: none !important;
+    visibility: hidden !important;
+    width: 0 !important;
+    height: 0 !important;
   }
 
   .navbar {
@@ -516,7 +520,7 @@ ul {
   }
 
   .navbar__nav {
-    display: block;
+    display: flex;
   }
 
   .navbar__list li {
