@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="styles.css">
   <title>Greety Portfolio</title>
   <script src="https://kit.fontawesome.com/a019e17187.js" crossorigin="anonymous"></script>
-  <script src="script.js"></script>
 </head>
 <body>
 
@@ -22,11 +21,11 @@
         <li><a href="#" class="link__hover-effect link__hover-effect--black">Contact</a></li>
       </ul>
     </nav>
-    <button class="btn__menu" onclick="openMenu()">
+    <button id="btnMenu" class="btn__menu">
       <i class="fa-solid fa-bars"></i>
     </button>
     <div class="menu__backdrop">
-      <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+      <button id="btnMenu2" class="btn__menu btn__menu--close">
         <i class="fas fa-times"></i>
       </button>
       <ul class="menu__links">
@@ -393,6 +392,6 @@
       <button class="works__button--element contact-me__form--button">Get in touch</button>
     </form>
   </section>
-  
+  <script src="script.js"></script>
 </body>
 </html>
